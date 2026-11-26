@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stilo Barber | Salão de Beleza Masculino & Barbearia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho (Requisito Obrigatório 1) com Menu Sanduíche -->
+    <header class="header">
+        <div class="container nav-container">
+            <h1 class="logo">Stilo<span>Barber</span></h1>
+            
+            <!-- Botão do Menu Sanduíche para Celular -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#servicos">Serviços</a>
+                <a href="#espaco">O Espaço</a>
+                <a href="#depoimentos">Avaliações</a>
+                <a href="#contato">Contato</a>
+                <a href="https://wa.me/" target="_blank" class="btn-cta-mobile">Agendar Horário</a>
+            </nav>
+            
+            <a href="https://wa.me/" target="_blank" class="btn-cta-header">Agendar Horário</a>
+        </div>
+    </header>
+
+    <!-- Hero Section (Requisito Obrigatório 2) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>O cuidado que seu visual merece.</h2>
+            <p>Corte moderno, barba alinhada e um ambiente pensado exclusivamente para o homem contemporâneo que valoriza sua imagem e tempo.</p>
+            <a href="https://wa.me/" target="_blank" class="btn-primary">Agendar pelo WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Seção de Conteúdo 1: Nossos Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h3>Nossos Serviços</h3>
+            <p class="section-subtitle">Trabalhamos com técnicas tradicionais e modernas para garantir o acabamento perfeito.</p>
+            <div class="cards-grid">
+                <div class="card">
+                    <h4>Corte Clássico & Moderno</h4>
+                    <p>Cortes com tesoura ou máquina, alinhados ao seu estilo, formato de rosto e visagismo.</p>
+                    <span class="price">R$ 50,00</span>
+                </div>
+                <div class="card">
+                    <h4>Barba com Toalha Quente</h4>
+                    <p>Barba desenhada com navalha, toalha morna e óleos hidratantes essenciais.</p>
+                    <span class="price">R$ 40,00</span>
+                </div>
+                <div class="card">
+                    <h4>Combo (Cabelo + Barba)</h4>
+                    <p>O pacote completo e indispensável para manter o visual impecável em dia.</p>
+                    <span class="price">R$ 80,00</span>
+                </div>
+                <div class="card">
+                    <h4>Tratamento Facial</h4>
+                    <p>Limpeza de pele express e cuidados para revitalizar o rosto masculino.</p>
+                    <span class="price">R$ 45,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Conteúdo 2: O Espaço e Diferenciais -->
+    <section id="espaco" class="features">
+        <div class="container">
+            <h3>Nosso Espaço e Diferenciais</h3>
+            <p class="section-subtitle">Mais do que um salão, um clube exclusivo para cuidar de você.</p>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h4>Ambiente Exclusivo</h4>
+                    <p>Espaço climatizado, som ambiente de qualidade e cerveja artesanal de cortesia para relaxar.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Profissionais Especializados</h4>
+                    <p>Equipe em constante atualização técnica nas maiores tendências globais de grooming.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Produtos Premium</h4>
+                    <p>Utilização exclusiva de marcas consagradas para tratamento de barba, cabelo e pele.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Conteúdo 3: Depoimentos -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <h3>O que dizem nossos clientes</h3>
+            <p class="section-subtitle">A satisfação de quem confia no nosso trabalho.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"Melhor barbearia da região! Atendimento impecável, ambiente agradável e o corte fica perfeito sempre."</p>
+                    <span class="client-name">— Carlos Eduardo</span>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Super recomendo o combo cabelo e barba. Profissionais muito atenciosos e cuidadosos com os detalhes."</p>
+                    <span class="client-name">— Rafael Souza</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Conteúdo 4: Localização e Contato -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <h3>Localização e Contato</h3>
+            <p class="section-subtitle">Venha nos fazer uma visita ou agende seu horário com antecedência.</p>
+            <div class="contact-info-box">
+                <p><strong>Endereço:</strong> Rua das Navalhas, 123 - Centro, São Paulo - SP</p>
+                <p><strong>Horário de Atendimento:</strong> Terça a Sábado, das 09h às 20h</p>
+                <p><strong>Telefone / WhatsApp:</strong> (11) 99999-9999</p>
+                <a href="https://wa.me/" target="_blank" class="btn-primary" style="margin-top: 20px; display: inline-block;">Fale Conosco pelo WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé (Requisito Obrigatório 4) -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Stilo Barber</h3>
+                <p>O seu espaço de cuidados e estilo masculino.</p>
+            </div>
+            <div class="footer-social">
+                <p><strong>Redes Sociais:</strong></p>
+                <a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">Facebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Stilo Barber. Todos os direitos reservados. Projeto Final de Criação de Páginas Web (Vibe Coding).</p>
+        </div>
+    </footer>
+
+    <!-- Script Simples para o Menu Sanduíche -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('open');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.classList.remove('open');
+            });
+        });
+    </script>
+</body>
+</html>
